@@ -1,0 +1,85 @@
+body {
+    background-color: #2D353B;
+}
+h1 {
+    color: #A7C080;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: Do Hyeon;
+    text-shadow: 1px 1px;
+    font-size: 35px;
+}
+
+h2 {
+    color: #9D7CD8;
+    text-align: center;
+    font-family: Mitr;
+    font-weight: bold;
+    font-size: 28px;
+    text-shadow: 2px 2px;
+
+
+}
+b {
+    color: #448b5d;
+    font-weight: bolder;
+    font-size: large;
+}
+p {
+    color:white;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: justify;
+    font-family: Montserrat;
+}
+
+
+li {
+    color: white;
+    margin-left: 50px;
+    margin-right: 55px;
+    text-align: justify;
+    font-family: Montserrat;
+}
+.a {
+    text-align: left;
+}
+.b {
+    text-indent: 10px;
+}
+.video {
+    text-align: center;
+}
+
+/* For the outside of the buttons */
+.button {
+    background-color: #c3c3c3; 
+    /*border: none;*/
+    color: A7C080;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: Montserrat;
+    font-weight: bold;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+
+}
+.button:hover{
+    background-color: #67737a; 
+}
+.button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+a {
+    font-size: 22px;
+    font-family: Montserrat;
+    font-weight: bold;
+    color:white;
+    text-align: center;
+    text-shadow: 1px 1px;
+}

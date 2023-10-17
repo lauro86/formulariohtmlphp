@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <link rel="stylesheet" type="text/css" href="styles.css">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Comic Neue|Montserrat|Do Hyeon|Inter|Mitr">
+        <title> Formulario </title>
+    </head>
+
+    <body>
+        <meta charset ="UTF-8">
+        <h1>Información del Evento</h1>
+        
+        <form action="reservation.php" method="post">
+        
+          <label for="event_name"> <p>Nombre del evento:   <input class="button" type="text" id="event_name" name="event_name" required> </p></label>
+          <br> <br>
+        
+          <label for="persons_no"><p>Personas invitadas:  <input  class="button" type="number" id="persons_no" name="persons_no" required><br> <br> </p></label>
+         
+          <label for="date_event"><p>Fecha del Evento: <input  class="button" type="date" id="date_event" name="date_event" required><br> <br></p> </label>
+          
+        
+            <label for="hour"><p>Seleccione la hora de su evento: <input  class="button" type="time" id="hour" name="hour"></p></label>
+            <br><br>
+        
+          <label for="comentario"> <p> Comentarios:  <textarea class="button" id="comentario" name="comentario" rows="4" required></textarea><br><br></p></label>
+         
+          <input   class="button" type="submit" value="Enviar">
+        </form>
+    </body>
+</html>
